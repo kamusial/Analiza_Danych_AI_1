@@ -10,8 +10,14 @@ print(f'Mnozenie 100 i 1.1: {mnozenie(100, 1.1)}')
 
 userlist = ['Kamil', 'poco123', 'xxx3']
 def name_available(name):
-    if name not in userlist and len(name) >= 3:
-        return True
+    if name not in userlist:
+        print('nazwa wolna')
+        if len(name) >= 3:
+            print('Dlugosc zaakceptowana')
+            return True
+        else:
+            print('nazwa za krotka')
+            return False
     else:
         return False
 
