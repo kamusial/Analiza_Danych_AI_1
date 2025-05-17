@@ -1,8 +1,8 @@
 Transaction ID,Customer ID,Category,Item,Price Per Unit,Quantity,Total Spent,Payment Method,Location,Transaction Date,Discount Applied
-TXN_6867343,CUST_09,Patisserie,Item_10_PAT,18.5,10.0,185.0,Digital Wallet,Online,2024-04-08,True
-TXN_3731986,CUST_22,Milk Products,Item_17_MILK,29.0,9.0,261.0,Digital Wallet,Online,2023-07-23,True
-TXN_9303719,CUST_02,Butchers,Item_12_BUT,21.5,2.0,43.0,Credit Card,Online,2022-10-05,False
-TXN_9458126,CUST_06,Beverages,Item_16_BEV,27.5,9.0,247.5,Credit Card,Online,2022-05-07,
+TXN_6867343,CUST_09,  patisserie, item_10_PAT,   18.5,-10.0,185.0,Digital Wallet,Online,2024-04-08,True
+TXN_3731986,CUST_22,   milk Products,  Item_17_MILK,29.0,9.0,261.0,Digital Wallet,Online,2023-07-23,True
+TXN_9303719,CUST_02,butchers,Item_12_BUT,   21.5, 2.0,43.0,Credit Card,Online,2022-10-05,False
+TXN_9458126,CUST_06,   beverages,Item_16_BEV,27.5,9.0,247.5,Credit Card,Online,2022-05-07,
 TXN_4575373,CUST_05,Food,Item_6_FOOD,12.5,7.0,87.5,Digital Wallet,Online,2022-10-02,False
 TXN_7482416,CUST_09,Patisserie,,,10.0,200.0,Credit Card,Online,2023-11-30,
 TXN_3652209,CUST_07,Food,Item_1_FOOD,5.0,8.0,40.0,Credit Card,In-store,2023-06-10,True
@@ -12573,4 +12573,5 @@ TXN_9347481,CUST_18,Patisserie,Item_23_PAT,38.0,4.0,152.0,Credit Card,In-store,2
 TXN_4009414,CUST_03,Beverages,Item_2_BEV,6.5,9.0,58.5,Cash,Online,2022-08-12,False
 TXN_5306010,CUST_11,Butchers,Item_7_BUT,14.0,10.0,140.0,Cash,Online,2024-08-24,
 TXN_5167298,CUST_04,Furniture,Item_7_FUR,14.0,6.0,84.0,Cash,Online,2023-12-30,True
+TXN_2407494,CUST_23,Food,Item_9_FOOD,17.0,3.0,51.0,Cash,Online,2022-08-06,
 TXN_2407494,CUST_23,Food,Item_9_FOOD,17.0,3.0,51.0,Cash,Online,2022-08-06,
