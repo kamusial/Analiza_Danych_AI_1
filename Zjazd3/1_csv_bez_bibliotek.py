@@ -29,5 +29,3 @@ for i in range(1, len(content)):
     if content[i][4][0].lower() == 't' and content[i][3] == 'k':
         total += 1
 print(f'Liczba Pań na macierzyńskim: {total}')
-
-# string.replace('a','')
