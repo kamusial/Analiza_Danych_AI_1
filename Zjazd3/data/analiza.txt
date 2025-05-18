@@ -1,0 +1,4 @@
+Kszta³: (1536, 9)
+Nazwy kolumn: Index(['pregnancies', 'glucose', 'bloodpressure', 'skinthickness', 'insulin',
+       'bmi', 'diabetespedigreefunction', 'age', 'outcome'],
+      dtype='object')

@@ -33,4 +33,32 @@ def skladka(wiek, plec, BMI, czy_pali, dlugosc_ubezpieczenia):
         total -= 50
     return total
 
+import pandas as pd
+def analiza(plik):
+    if plik[-4:] == '.csv':
+        print('poprawnie rozpoznano format CSV')
+    else:
+        print('Nie rozpoznano formatu - próbuje csv')
+        plik += '.csv'
+
+    dict_data = {}
+    df = pd.read_csv(plik)
+    print(f'Kształ: {df.shape}')
+    dict_data['shape'] = df.shape
+    print(f'Nazwy kolumn: {df.columns}')
+    dict_data['columns'] = df.columns
+    print(f'Pięć pierwszych wierzy: {df.head().to_string()}')
+    print(df.describe().T.to_string())
+    duplikaty = df.duplicated().sum()
+    print(f"Liczba duplikatów przed usunięciem: {duplikaty}")
+    print("Brakujące wartości przed uzupełnieniem:")
+    print(df.isnull().sum())
+
+
+    with open('data\\analiza.txt', 'w') as file:
+        file.write(f'Kształ: {df.shape}\n')
+        file.write(f'Nazwy kolumn: {df.columns}\n')
+
+    return dict_data
+
 
