@@ -1,4 +1,4 @@
-Kszta³: (1536, 9)
-Nazwy kolumn: Index(['pregnancies', 'glucose', 'bloodpressure', 'skinthickness', 'insulin',
-       'bmi', 'diabetespedigreefunction', 'age', 'outcome'],
+Kszta?: (4314, 7)
+Nazwy kolumn: Index(['id', 'cena', 'liczba_pieter', 'liczba_pokoi', 'pietro', 'powierzchnia',
+       'rok_budowy'],
       dtype='object')
