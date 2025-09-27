@@ -5,17 +5,18 @@ import matplotlib.pyplot as plt
 # analiza('data\\otodom.csv')
 
 df = pd.read_csv('data\\otodom.csv')
+# df = pd.read_csv(r'data\otodom.csv')
 print(df.describe().T.round(2).to_string())
 
 
-# sns.heatmap(df.iloc[  :  ,     2:   ].corr(), annot=True)   # pomiń 2 pierwsze kolumny
-# plt.show()
-#
-# sns.histplot(df.cena)
-# plt.show()
-#
-# plt.scatter(df.powierzchnia, df.cena)
-# plt.show()
+sns.heatmap(df.iloc[  :  ,     2:   ].corr(), annot=True)   # pomiń 2 pierwsze kolumny
+plt.show()
+
+sns.histplot(df.cena)
+plt.show()
+
+plt.scatter(df.powierzchnia, df.cena)
+plt.show()
 
 q1 = df.describe().T.loc["cena", "25%"]
 q3 = df.describe().T.loc["cena", "75%"]
